@@ -1,0 +1,37 @@
+h1 {
+    font-weight: bold;
+    margin: 1em;
+    text-align: center;
+    color: #0665a9;
+}
+.conteiner_1, .conteiner_2{
+    display: flex;
+    align-items:stretch ;
+    flex-direction: row;
+    font-size: 14px;
+}
+.conteiner_1 div, .conteiner_2 div {
+    padding: 50px;
+}
+.conteiner_2{
+    justify-content: center;
+}
+.box_1{
+text-align: center;
+    flex: 2;
+    order: 2;
+}
+.box_2{
+    text-align: center;
+    flex: 2;
+    order: 2;
+}
+.box_3{
+    text-align: center;
+    flex: 2;
+    order: 2;
+}
+.box{
+    text-align: center;
+    width: 20%;
+}
